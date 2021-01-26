@@ -1,0 +1,18 @@
+{
+    "bg": "https://i0.wp.com/movimentorpg.com.br/wp-content/uploads/2020/04/Demon-Slayer-Kimetsu-no-Yaiba.jpg?fit=2339%2C1654&ssl=1",
+    "title": "Quiz Kimetsu no Yaiba",
+    "description": "Mostre pra todes que você sabe tudo sobre Kimetsu no Yaiba, o melhor anime de 2019!",
+    "theme": {
+      "colors": {
+        "primary": "#76A68F",
+        "secondary": "#F27F3D",
+        "mainBg": "#252C40",
+        "contrastText": "#F2D9D0",
+        "gitCorner": "#7BCFFD",
+        "wrong": "#D95323",
+        "success": "#F2C777"
+      },
+      "borderRadius": "4px"
+    }
+  }
+
