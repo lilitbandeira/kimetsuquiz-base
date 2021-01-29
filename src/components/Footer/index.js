@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 const FooterWrapper = styled.footer`
-  background-color: rgba(37, 44, 64, 0.8);
+  background-image: linear-gradient(to right bottom, rgba(37, 44, 64, .4), rgba(37, 44, 64, .8));
+  backdrop-filter: blur(3px);
   padding: 20px;
   display: flex;
   align-items: center;
@@ -31,7 +32,7 @@ export default function Footer(props) {
         <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
       </a>
       <p>
-        Orgulhosamente criado durante
+        Orgulhosamente criado por Lilit durante
         {' '}
         a
         {' '}

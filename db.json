@@ -2,17 +2,131 @@
     "bg": "https://i0.wp.com/movimentorpg.com.br/wp-content/uploads/2020/04/Demon-Slayer-Kimetsu-no-Yaiba.jpg?fit=2339%2C1654&ssl=1",
     "title": "Quiz Kimetsu no Yaiba",
     "description": "Mostre pra todes que você sabe muito sobre Kimetsu no Yaiba, o melhor anime de 2019!",
+    "questions": [
+        {
+          "image": "https://media.giphy.com/media/J6JazAkCVLId91L4yM/giphy.gif",
+          "title": "Qual nome da primeira habilidade do Tanjiro?",
+          "description": "Easy",
+          "answer": 2,
+          "alternatives": [
+            "Dragão de Água",
+            "Dança do Deus da Água",
+            "Respiração da Água",
+            "Demônio de Água"
+          ]
+        },
+        {
+          "image": "https://media.giphy.com/media/Tk72PfpE5RVcZF8XHN/giphy.gif",
+          "title": "Quem transformou a Nezuko em demônio?",
+          "description": "Easy",
+          "answer": 0,
+          "alternatives": [
+             "Muzan Kibutsuji",
+             "Tanjiro Kamado",
+             "Zenitsu Agatsuma",
+             "Shinobu Kocho"
+          ]
+        },
+        {
+          "image": "https://media.giphy.com/media/fTn01fiFdTd5pL60ln/giphy.gif",
+          "title": "Qual nome deste personagem que usa a Respiração do Trovão?",
+          "description": "Easy",
+          "answer": 3,
+          "alternatives": [
+             "Inosuke Hashibira",
+             "Jigoro Kuwajima",
+             "Genya Shinazugawa",
+             "Zenitsu Agatsuma"
+          ]
+        },
+        {
+          "image": "https://66.media.tumblr.com/7d00d16b845cfaea1348336d8a2d6a4e/ddaa859f1bf7a6f7-a7/s540x810/9dc80dce553c968860c0d616b1bbe1e63181d836.gif",
+          "title": "Qual tipo de Respiração utilizada exclusivamente por Inosuke?",
+          "description": "Medium",
+          "answer": 2,
+          "alternatives": [
+             "Respiração da Alma",
+             "Respiração da Fera",
+             "Respiração da Besta",
+             "Respiração da Força"
+          ]
+        },
+        {
+          "image": "https://media.giphy.com/media/S6C1GLnJjTL6xbw5ZJ/giphy.gif",
+          "title": "Qual nome da lâmina especial usada por caçadores para matar demônios?",
+          "description": "Medium",
+          "answer": 1,
+          "alternatives": [
+             "Giyu Tomioka",
+             "Lâmina Nichirin",
+             "Lâmina Shikikaku",
+             "Omoitsuki no nagesaki"
+          ]
+        },
+        {
+          "image": "https://media.giphy.com/media/f7k6TfAFkiAqKVcJGH/giphy.gif",
+          "title": "Qual nome dado aos 9 mais poderosos mestres de espadas dentre os caçadores de demônios ?",
+          "description": "Medium",
+          "answer": 2,
+          "alternatives": [
+             "Ubuyashiki",
+             "Tsuguko",
+             "Hashira",
+             "Kakushi"
+          ]
+        },
+        {
+          "image": "https://media.giphy.com/media/Yq1tXTNe5PDdQEhKXG/giphy.gif",
+          "title": "Como se chama a poderosa Hashira qmestra da Respiração de insetos?",
+          "description": "Hard",
+          "answer": 3,
+          "alternatives": [
+             "Giyu Tomioka",
+             "Kanao Tsuyuri",
+             "Nezuko Kamado",
+             "Shinobu Kocho"
+          ]
+        },
+        {
+          "image": "https://media.giphy.com/media/dyjrpqaUVqCELGuQVr/giphy.gif",
+          "title": "Em que momento Tanjiro domina a dança do Deus do Fogo?",
+          "description": "Hard",
+          "answer": 2,
+          "alternatives": [
+             "Na luta contra Giyu Tomioka",
+             "Na luta contra Genya Shinazugawa",
+             "Na luta contra Muzan Kibutsuji",
+             "Na luta contra Shinobu Kocho"
+          ]
+        },
+        {
+          "image": "https://media.giphy.com/media/JrHB5IyuBzKwPEPZe4/giphy.gif",
+          "title": "Como se chama a habilidade de chamas de Nezuko criada a partir do seu sangue?",
+          "description": "Hard",
+          "answer": 0,
+          "alternatives": [
+             "Manipulação de fogo",
+             "Chama demoníaca",
+             "Transformação demoníaca",
+             "Manipulação de sangue"
+          ]
+        }
+      ],
+      "external": [
+        ""
+      ],
     "theme": {
       "colors": {
         "primary": "#76A68F",
         "secondary": "#F27F3D",
         "mainBg": "#252C40",
         "contrastText": "#F2D9D0",
-        "gitCorner": "#7BCFFD",
-        "wrong": "#D95323",
-        "success": "#F2C777"
+        "extraColor": "#7BCFFD",
+        "wrong": "#E74C3C",
+        "success": "#43CD80"
       },
-      "borderRadius": "4px"
+      "borderRadius": "4px",
+      "boxShadow": "4px 4px 8px rgba(0, 0, 0, .5)"
     }
   }
 
