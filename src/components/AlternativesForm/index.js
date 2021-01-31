@@ -7,7 +7,7 @@ const AlternativesForm = styled.form`
     }
     25%, 75%
     {
-      background-color: #008B45;
+      background-color: ${({ theme }) => theme.colors.successFlash};
     }
   }
 
@@ -17,7 +17,7 @@ const AlternativesForm = styled.form`
     }
     25%, 75%
     {
-      background-color: #9d0025;
+      background-color: ${({ theme }) => theme.colors.wrongFlash};
     }
   }
   

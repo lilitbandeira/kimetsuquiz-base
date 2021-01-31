@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 
 const FooterWrapper = styled.footer`
-  background-image: linear-gradient(to right bottom, rgba(37, 44, 64, .4), rgba(37, 44, 64, .8));
+  background: ${({ theme }) => theme.gradientBlue};
   backdrop-filter: blur(3px);
   padding: 20px;
   display: flex;
   align-items: center;
   border-radius: 4px; 
+  box-shadow: ${({ theme }) => theme.boxShadow}; 
   img {
     width: 58px;
     margin-right: 23px;
@@ -23,6 +24,10 @@ const FooterWrapper = styled.footer`
       text-decoration: underline;
     }
   }
+  @media (max-width:500px){
+      background: ${({ theme }) => theme.gradientGreen2};
+      border: 1px solid ${({ theme}) => theme.colors.primary};
+    }
 `;
 
 export default function Footer(props) {

@@ -1,25 +1,33 @@
-# Criação do Quiz Kimetsu no Yaiba com React e NextJS
+# Quiz Kimetsu no Yaiba
 
-<img width="720" src="/_docs/screen.gif" />
+<img width="720" src="/_docs/screen.jpg" />
 
 
 
 ------
 
-- ### Projeto resultado da imersão em React, NextJS e Styled-components realizada pela [Alura](https://alura.com.br);
+#### Projeto Resultado da 2ª Imersão da [Alura](https://alura.com.br);
 
-  - ##### Repositório base do projeto da imersão realizado por Mario Souto & Juliana Amoasei: [Aqui](https://github.com/alura-challenges/aluraquiz-base/);
+------
 
-- ### Visite meu deploy na [vercel](https://vercel.com/) que está neste [link](https://github.com/lilitbandeira/kimetsuquiz-base);
+#### Tecnologias utilizadas
 
-- ### Andamento do projeto:
+​	`[ React | NextJS | Styled-componentes | prop-types | Eslint | Framer Motion ]`
 
-  - [x] ##### Aula 1 - 25/01/21;
+------
 
-  - [x] ##### Aula 2 - 26/01/21;
+#### Visite meu deploy na [vercel](https://vercel.com/):
 
-  - [x] ##### Aula 3 - 27/01/21;
+[Link](https://github.com/lilitbandeira/kimetsuquiz-base)
 
-  - [x] ##### Aula 4 - 28/01/21;
+------
 
-  - [ ] ##### Aula 5 - 29/01/21;
+#### Projeto Figma base para a construção da  página:
+
+[Link](https://www.figma.com/file/cg1MIzSRRss8ggpypQbmdD/AluraQuiz?node-id=0%3A1)
+
+------
+
+#### Vitrine com todos os Quizes criados durante a imersão:
+
+[Link](https://aluraquiz-base.alura-challenges.vercel.app/contribuidores)
