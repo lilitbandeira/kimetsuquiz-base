@@ -77,7 +77,7 @@
         },
         {
           "image": "https://media.giphy.com/media/Yq1tXTNe5PDdQEhKXG/giphy.gif",
-          "title": "Como se chama a poderosa Hashira qmestra da Respiração de insetos?",
+          "title": "Como se chama a Hashira mestra da Respiração de insetos?",
           "description": "Hard",
           "answer": 3,
           "alternatives": [
@@ -94,8 +94,8 @@
           "answer": 2,
           "alternatives": [
              "Na luta contra Giyu Tomioka",
-             "Na luta contra Genya Shinazugawa",
-             "Na luta contra Muzan Kibutsuji",
+             "Na luta contra Genya",
+             "Na luta contra Rui",
              "Na luta contra Shinobu Kocho"
           ]
         },
@@ -105,7 +105,7 @@
           "description": "Hard",
           "answer": 0,
           "alternatives": [
-             "Manipulação de fogo",
+             "Sangue explosivo",
              "Chama demoníaca",
              "Transformação demoníaca",
              "Manipulação de sangue"
@@ -113,7 +113,8 @@
         }
       ],
       "external": [
-        ""
+        "https://aluraquiz-css.omariosouto.vercel.app/",
+        "https://rpdr-quiz.lucasgmelo.vercel.app/"
       ],
     "theme": {
       "colors": {
@@ -123,8 +124,13 @@
         "contrastText": "#F2D9D0",
         "extraColor": "#7BCFFD",
         "wrong": "#E74C3C",
-        "success": "#43CD80"
+        "wrogFlash": "#9d0025",
+        "success": "#43CD80",
+        "successFlash": "#008B45"
       },
+      "gradientBlue": "linear-gradient(to right bottom, rgba(37, 44, 64, .6), rgba(37, 44, 64, 1))",
+      "gradientGreen": "linear-gradient(to right bottom, rgba(118, 166, 128, .4), rgba(118, 166, 128, .7))",
+      "gradientGreen2": "linear-gradient(to right bottom, rgba(118, 166, 128, .3), rgba(118, 166, 128, .5))",
       "borderRadius": "4px",
       "boxShadow": "4px 4px 8px rgba(0, 0, 0, .5)"
     }

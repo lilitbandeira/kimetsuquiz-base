@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import PropTypes from 'prop-types';
+import { motion } from 'framer-motion';
 
+import BackLinkArrow from '../../../src/components/BackLinkArrow';
 import Widget from '../Widget';
 
 import { useRouter } from 'next/router';
@@ -40,7 +41,7 @@ const Container = styled.div`
     };
 
     #good {
-      color: #43CD80;
+      color: ${({ theme}) => theme.colors.success};
     }
     #bad {
       color: ${({ theme}) => theme.colors.secondary};
@@ -61,9 +62,18 @@ export default function ResultWidget({ results }) {
   const { name } = router.query;
   const finalResult = results.filter((x) => x).length * 10;
   const totalQuestion = results.length * 10;
-  
+
   return (
-    <Widget>
+    <Widget
+      as={motion.section}
+      transition={{ delay: 0, duration: .5 }}
+      variants={{
+        after: {opacity: 1, scale: 1},
+        before: {opacity: 0,  scale: .6},
+      }}
+      initial="before"
+      animate="after"
+    >
       <Widget.Header>
         Veja seu desempenho
       </Widget.Header>
@@ -87,12 +97,9 @@ export default function ResultWidget({ results }) {
                   </li>
                 ))}     
             </ul>
+            <BackLinkArrow href="/"/>       
         </Container>
       </Widget.Content>
     </Widget>
   );
 } 
-
-ResultWidget.propTypes = {
-  results: PropTypes.arrayOf(PropTypes.bool).isRequired,
-};

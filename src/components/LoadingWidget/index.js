@@ -1,5 +1,7 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import styled, { keyframes } from 'styled-components';
+
 import Widget from '../Widget';
 
 const rotating = keyframes`
@@ -62,7 +64,16 @@ const FlexItem = styled.div`
 
 export default LoadingWidget => {
   return (
-    <Widget>
+    <Widget
+    as={motion.section}
+    transition={{ delay: 0, duration: .3 }}
+    variants={{
+      after: {opacity: 1, scale: 1},
+      before: {opacity: 0,  scale: .6},
+    }}
+    initial="before"
+    animate="after"
+    >
       <Widget.Header>
         Carregando...
       </Widget.Header>
